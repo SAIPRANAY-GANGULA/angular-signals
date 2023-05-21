@@ -1,0 +1,78 @@
+{
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.indentHandlebars": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.iconTheme": "material-icon-theme",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.smoothScrolling": true,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.useEditorConfig": false,
+    "prettier.trailingComma": "none",
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+    ],
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 10,
+    "editor.fontLigatures": true,
+    "debug.console.fontSize": 10,
+    "markdown.preview.fontSize": 10,
+    "terminal.integrated.fontSize": 10,
+    "editor.snippetSuggestions": "top",
+    "emmet.showSuggestionsAsSnippets": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.ignoreRebaseWarning": true,
+    "workbench.tree.indent": 16,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "files.autoSave": "onWindowChange",
+    "window.zoomLevel": 1,
+    "editor.linkedEditing": true,
+    "angular.enable-strict-mode-prompt": false,
+    "editor.bracketPairColorization.enabled": true,
+    "vsintellicode.features.python.deepLearning": "disabled",
+    "vsintellicode.java.completionsEnabled": false,
+    "vsintellicode.python.completionsEnabled": false,
+    "vsintellicode.sql.completionsEnabled": false,
+    "editor.inlineSuggest.enabled": true
+  }
