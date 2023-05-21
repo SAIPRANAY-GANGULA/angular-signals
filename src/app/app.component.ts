@@ -2,11 +2,14 @@ import { Component, computed, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: ` <p>Search string: {{ search() }}</p>
+  template: `
+    <p>Search string: {{ search() }}</p>
     <input type="text" (input)="setSearchString($event)" />
     <p *ngFor="let user of filteredUsers()">{{ user.id }}. {{ user.name }}</p>
     <button (click)="addUser()">Add Random User</button>
-    <app-rxjs-vs-signals></app-rxjs-vs-signals>`,
+    <app-rxjs-vs-signals></app-rxjs-vs-signals>
+    <app-signals-in-depth></app-signals-in-depth>
+  `,
 })
 export class AppComponent {
   search = signal('');
